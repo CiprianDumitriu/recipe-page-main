@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: YoungSerif;
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+li {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+h1 {
+  font-family: YoungSerif, serif;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 12px;
+}
+
+.prep-time {
+  padding: 20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: YoungSerif, serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.prep-time li {
+  margin-left: 23px;
+  margin-top: 10px;
+}
+
+.prep-time li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredients li{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions li {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+hr {
+  color: hsl(30, 10%, 34%);
+  margin-top: 10px;
+}
+
+span {
+  margin-left: 10px;
+}
