@@ -9,8 +9,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   font-family: 'Outfit', sans-serif;
+  padding-top: 10vh;
 }
 
 @font-face {
@@ -101,6 +102,29 @@ hr {
   margin-top: 10px;
 }
 
-span {
-  margin-left: 10px;
+.list-item {
+  margin-left: 20px;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  color: hsl(30, 10%, 34%);
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+td { 
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+  color: hsl(30, 10%, 34%);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: left;
+ }
